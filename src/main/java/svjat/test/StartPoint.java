@@ -10,6 +10,15 @@ public class StartPoint {
         Woman woman = new Woman();
         woman.speak();
         System.out.println(man.equals(woman));
+        boolean manWomen = (man.equals(woman) );
+        System.out.println(manWomen);
+
+        if (man instanceof Human){
+            System.out.println("I'm Human");
+        }
+        if (woman instanceof Human){
+            System.out.println("I'm not Man");
+        }
     }
-    //boolean manWomen = (man.equals(women) );
+
 }
